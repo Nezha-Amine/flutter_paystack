@@ -43,7 +43,7 @@ class CustomAlertDialog extends StatelessWidget {
       child: new Padding(
         padding: contentPadding,
         child: new DefaultTextStyle(
-          style: context.textTheme().subtitle1!,
+          style: context.textTheme().titleMedium!,
           child: content,
         ),
       ),
